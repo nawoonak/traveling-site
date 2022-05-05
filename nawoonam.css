@@ -1,0 +1,360 @@
+
+@font-face{
+    font-family:'farsi';
+    src: url(./IranianSans.ttf);
+}
+
+
+body
+{
+    background-color: #352c5f;
+    margin: 0 ;
+    font-family: farsi;
+}
+
+#header 
+{
+    width: 100%;
+    height: 500px;
+    background-image: url('inn.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(2.5px);
+    position: relative;
+    
+}
+
+#site-name
+{
+    position: absolute;
+    z-index: 1;  
+    width: auto;
+} 
+
+#nawoonam
+{
+    margin: 250px auto 0 250px; 
+    font-size: 50px;
+    color: #1c1a1a;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.644);
+   
+}
+
+#nawoonam-underline
+{
+    margin:0 auto 0 280px; 
+    font-size: 14px;
+    color: #1c1a1a;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.748);    
+}
+
+#travel-agency
+{
+    margin:0 1000px 0 350px; 
+    font-size: 18px;
+    color: #f5c0f1;
+    text-shadow: 3px 2px 2px rgb(0, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.9s;
+}
+#travel-agency:hover
+{
+    color: #ffbf00;
+    
+}
+#menu
+{
+    width: auto;
+    height: auto;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+#header-menu
+{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+#header-menu a
+{
+    width: 100px;
+    height: 17px;
+    color: #ffffff;
+    font-size: medium;
+    padding: 5px;
+    margin: 0 auto 0 auto;
+    text-decoration: none;
+    position: absolute;
+    cursor: pointer;
+
+}
+
+#header-menu li
+{
+    margin: 10px 100px 40px 40px;
+    padding: 0;
+    overflow: hidden;
+    type: none;    
+    display: inline-flex;  
+    flex-wrap: wrap;  
+} 
+#a1:hover, :focus
+{
+    color: #ffbf00;
+    transition: 0.9s;
+    border: 1px solid aliceblue;
+}
+
+#a2:hover, :focus
+{
+    color: #ffbf00;
+    transition: 0.9s;
+    border: 1px solid aliceblue;
+}
+
+#a3:hover, :focus
+{
+    color: #ffbf00;
+    transition: 0.9s;
+    border: 1px solid aliceblue;
+}
+#a4:hover, :focus
+{
+    color: #ffbf00;
+    transition: 0.9s;
+    border: 1px solid aliceblue;
+}
+
+#main-div
+{
+    width: auto;
+    height: 1900px;
+    margin: 0 auto;
+    
+}
+#cards-divition
+{
+    max-width: 1000px;
+    height: 500px;
+    margin: 0 auto 50px auto ;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards
+{
+    max-width: 250px;
+    height: 450px;
+    margin: 50px 10px 100px 10px ;
+    border: 1px none black;
+    padding: 30px;
+    border-radius: 0px;
+    background-color: #644ba2;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    box-shadow: 0px 0px 17px 0px #151027;
+   
+}
+.cards .fa
+{
+    font-family: farsi;
+    display: none;
+}
+
+.cards .en
+{
+    font-family: cursive;
+    
+} 
+
+.cards:hover
+{
+    transform: rotateY(180deg);
+    opacity: 60%;
+    transition-delay: 0s;
+}
+
+.cards:hover .fa
+{
+    display: block;
+    transform: rotateY(180deg);
+
+}
+.cards:hover .en
+{
+    display: none;
+}
+
+.cards h1,p
+{
+    text-align: center;
+}
+
+.cards h1 
+{
+    color: #ffd656;
+}
+
+.cards img
+{
+    width: 240px;
+    height: 170px;
+    margin: 5px;
+    border-radius: 0px;
+}
+
+
+input[type="submit"]
+{
+    background-color: #ffd656;
+    color: #352c5f;
+    font-weight: bold;
+    border-style:inherit;
+    border: 1px;
+    padding: 10px 26px;
+    position: absolute;
+    border-bottom:0.5px solid #000000;
+    border-right: 0.5px solid black;
+    outline: none;
+    cursor: pointer;
+
+}
+
+#central-part
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 500px;
+    height: auto;
+    border: 1px dashed rgb(19, 19, 19);
+    margin: 10px auto;
+    padding: 40px;
+}
+.warnings
+{
+    color: #ffbf00;
+    font-family: cursive;
+}
+ 
+#first-name
+{
+    margin: 0px 57px;
+    width: 260px;
+    height: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+#last-name
+{
+    margin: 0px 58px;
+    width: 260px;
+    height: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+#mail
+{
+    margin: 0 42px;
+    width: 260px;
+    height: 20px;
+    text-align: center;
+    border-radius: 20px;
+
+}
+#phone-num
+{
+    margin: 0 32px;
+    width: 260px;
+    height: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+#where
+{
+    margin: 0 50px;
+    width: 260px;
+    height: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#gender-selector
+{
+    margin: 0 70px 0 165px;
+    
+    
+
+}
+#vehicle
+{
+    margin: 0 70px 0 170px;
+    width: 200px;
+    color: #000000;
+    height: 20px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#checkbox-rule
+{
+    color: #ffbf00;
+    cursor: pointer;
+}
+#checkbox-rule:hover
+{
+    color: rgb(255, 98, 0);
+    transition: 0.4s;
+}
+#rule input
+{
+    text-align: center;
+}
+#submit-botton
+{
+    margin: 0 40px 0px 300px;
+}
+input[type="number"],[type="text"],[type="email"],[type="tel"]
+{
+    color: #000000;
+    font-family: cursive;
+    font-size: 12px;
+  
+}
+#about-us-paragraph
+{
+    margin: 50px auto;
+}
+#about-us-paragraph p
+{
+    margin: 30px auto ;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    font-family: cursive;
+}
+#about-us-paragraph h2
+{
+    margin: 80px aut 10px;
+    color: #000000;
+    font-size: 30px;
+    
+}
+
+#footer
+{
+    margin: 20px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 10px 200px 10px;
+    border:  3px dashed black;
+}
+#footer pre a
+{
+    color: #ffbf00;
+    text-decoration: wavy;
+    
+    font-size: 15px;
+    font-family: cursive;
+}
